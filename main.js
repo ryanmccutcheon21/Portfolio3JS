@@ -54,7 +54,7 @@ const material = new THREE.MeshStandardMaterial({ color: 0xFF6347 });
 const torus = new THREE.Mesh(geometry, material);
 
 // Now add this object created in const torus to the scene
-scene.add(torus);
+// scene.add(torus);
 
 // add lighting
 // see three.js docs for built-in lighting
